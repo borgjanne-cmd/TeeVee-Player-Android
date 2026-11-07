@@ -44,7 +44,7 @@ Koska sovellus on tällä hetkellä varhaisessa testijakelussa, se asennetaan la
 2. Avaa television *Asetukset* ➔ *Sovellukset* ➔ *Turvallisuus ja rajoitukset* ➔ *Tuntemattomat lähteet* (tai *Asenna tuntemattomia sovelluksia*) ja anna **Downloaderille** asennusoikeus.
 3. Avaa Downloader ja kirjoita osoitekenttään suora latauslinkki:
    ```text
-   https://github.com/borgjanne-cmd/TeeVee-Player-Android/releases/latest/download/TeeVee-Player-Android-v0.9.1.apk
+   https://github.com/borgjanne-cmd/TeeVee-Player-Android/releases/latest/download/TeeVee-Player-Android-v0.9.2.apk
    ```
 4. Latauksen valmistuttua valitse ruudulta **Install** (Asenna).
 
@@ -56,7 +56,7 @@ Koska sovellus on tällä hetkellä varhaisessa testijakelussa, se asennetaan la
 ### Tapa 3: ADB-komennolla (Kehittäjille)
 ```bash
 adb connect <television-ip-osoite>:5555
-adb install -r TeeVee-Player-Android-v0.9.1.apk
+adb install -r TeeVee-Player-Android-v0.9.2.apk
 ```
 
 ---
